@@ -16,7 +16,7 @@ brew install sbt
 You can run and test the project like so:
 
 ```bash
-git clone ???
+git clone git@github.com:mattroberts297/play-minimal-2.5.git
 cd play-minimal
 sbt clean compile test stage
 PLAY_CRYPTO_SECRET="$(openssl rand -base64 256)" target/universal/stage/bin/play-minimal
@@ -180,4 +180,4 @@ Here are my usual and somewhat opinionated next steps:
 - Use [sbt-release](https://github.com/sbt/sbt-release) to help automate your release process.
 - Use [sbt-native-package](https://github.com/sbt/sbt-native-packager) to create a Docker image for the application.
 
-The full source code can be found here: ???. Please do suggest useful plugins and next steps here or there.
+The full source code can be found on GitHub at [mattroberts297/play-minimal-2.5](https://github.com/mattroberts297/play-minimal-2.5). Please do suggest useful plugins and next steps.
