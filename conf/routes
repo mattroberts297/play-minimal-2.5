@@ -1,0 +1,1 @@
+GET /ping com.example.controllers.PingPongController.ping()
